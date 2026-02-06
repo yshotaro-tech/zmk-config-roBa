@@ -59,7 +59,7 @@
         };
 
         shift_tab {
-            bindings = <&kp LS(TAB)>;
+            bindings = <&kp LS(BACKSPACE)>;
             key-positions = <12 13>;
         };
 
@@ -76,6 +76,11 @@
         eq {
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
+        };
+
+        escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <1 2>;
         };
     };
 
