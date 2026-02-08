@@ -59,7 +59,7 @@
         };
 
         shift_tab {
-            bindings = <&kp LS(BACKSPACE)>;
+            bindings = <&kp BACKSPACE>;
             key-positions = <12 13>;
         };
 
@@ -112,27 +112,27 @@
 &kp Q             &kp W         &kp E         &kp R                        &kp T                                                           &kp Y        &kp U  &lt 5 I    &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F                        &kp G        &lt 5 ESCAPE                       &kp MINUS       &kp H        &kp J  &kp K      &kp L    &kp JP_QUOTE
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp JP_COLON                       &kp LANGUAGE_5  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp BACKSPACE   &lt 1 ENTER                             &kp DEL
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 1 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp BACKSPACE   &lt 2 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
-        FUNCTION {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                          &kp F12
-            >;
-        };
-
         NUM {
             bindings = <
-&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp JP_PLUS                                                      &kp JP_CARET     &kp JP_AMPERSAND  &kp JP_LBRACKET  &kp JP_RBRACKET  &kp DOLLAR
+&trans                      &trans           &trans           &trans           &trans                                                           &kp JP_CARET     &kp JP_AMPERSAND  &kp JP_LBRACKET  &kp JP_RBRACKET  &kp DOLLAR
 &kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp JP_ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp JP_UNDERSCORE  &kp EXCLAMATION  &kp JP_AT         &kp JP_LPAREN    &kp JP_RPAREN    &kp PERCENT
 &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD       &kp JP_EQUAL                 &trans             &kp JP_TILDE     &kp HASH          &kp JP_LBRACE    &kp JP_RBRACE    &kp BACKSLASH
 &trans                      &trans           &trans           &trans           &trans           &trans                       &trans             &trans                                                               &kp JP_PIPE
+            >;
+        };
+
+        NUM_FUNCTION {
+            bindings = <
+&kp MINUS        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp COLON                                  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
+&kp SLASH        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp DOUBLE_QUOTES  &trans         &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
+&kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD         &kp UNDER      &trans   &trans  &trans  &trans  &trans  &kp F11
+&trans           &trans           &trans           &trans           &trans             &trans         &trans   &trans                          &kp F12
             >;
         };
 
