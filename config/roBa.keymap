@@ -137,7 +137,7 @@
             bindings = <
 &trans           &trans             &trans     &trans      &trans                           &kp EQUAL     &kp LEFT_BRACE  &kp JP_LBRACKET  &kp JP_RBRACKET  &kp LEFT_BRACKET
 &kp EXCLAMATION  &kp AT             &kp HASH   &kp DOLLAR  &kp PERCENT  &trans      &trans  &kp CARET     &kp AMPERSAND   &kp JP_LPAREN    &kp JP_RPAREN    &kp PERCENT
-&kp SLASH        &kp DOUBLE_QUOTES  &kp MINUS  &kp COLON   &trans       &trans      &trans  &JP_PIPE  &kp PLUS        &kp JP_LBRACE    &kp JP_RBRACE    &kp BACKSLASH
+&kp SLASH        &kp DOUBLE_QUOTES  &kp MINUS  &kp COLON   &trans       &trans      &trans  &kp JP_PIPE  &kp PLUS        &kp JP_LBRACE    &kp JP_RBRACE    &kp BACKSLASH
 &trans           &trans             &trans     &trans      &trans       &trans      &trans  &trans                                                          &kp JP_PIPE
             >;
         };
