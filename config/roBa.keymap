@@ -117,8 +117,8 @@
         SYMBOL {
             bindings = <
 &trans           &trans             &trans     &trans      &trans                           &kp EQUAL    &kp LEFT_BRACE  &kp RIGHT_BRACKET  &kp BACKSLASH         &kp LEFT_BRACKET
-&kp EXCLAMATION  &kp AT             &kp HASH   &kp DOLLAR  &kp PERCENT  &trans      &trans  &kp CARET    &kp AMPERSAND   &kp ASTRK          &kp LEFT_PARENTHESIS  &kp PERCENT
-&kp SLASH        &kp DOUBLE_QUOTES  &kp MINUS  &kp COLON   &trans       &trans      &trans  &kp JP_PIPE  &kp PLUS        &kp RIGHT_BRACE    &kp PIPE              &kp BACKSLASH
+&kp EXCLAMATION  &kp AT             &kp HASH   &kp DOLLAR  &kp PERCENT  &trans      &trans  &kp CARET    &kp AMPERSAND   &kp ASTRK          &kp LEFT_PARENTHESIS  &kp JP_UNDERSCORE
+&kp SLASH        &kp DOUBLE_QUOTES  &kp MINUS  &kp COLON   &trans       &trans      &trans  &kp JP_PIPE  &kp PLUS        &kp RIGHT_BRACE    &kp PIPE              &kp JP_YEN
 &trans           &trans             &trans     &trans      &trans       &trans      &trans  &trans                                                                &kp JP_PIPE
             >;
         };
